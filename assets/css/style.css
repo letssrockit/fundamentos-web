@@ -1,0 +1,46 @@
+/*
+Estilos da pagina index
+*/
+.centro{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+  #menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+#menu li a:hover{
+    color: dodgerblue;
+}
+
+.p-30{
+    padding: 30px;
+
+}
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+/*
+Estilos da pagina contato
+*/
+body{
+    background: url("https://www.meisterdrucke.pt/kunstwerke/500px/Claude_Monet_-_Winter_Sun_at_Lavacourt_-_(MeisterDrucke-795131).jpg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 200%;
+  }
