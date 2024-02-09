@@ -19,10 +19,12 @@ Estilos da pagina index
     text-decoration: none;
     color: #000;
     font-size: 15px;
+    display: inline;
 }
 
 #menu li a:hover{
     color: dodgerblue;
+    display: inline;
 }
 
 .p-30{
@@ -43,4 +45,5 @@ body{
     background-repeat: no-repeat;
     background-color: transparent;
     background-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
